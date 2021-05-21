@@ -42,7 +42,7 @@ def check_passwd(file_signin,file_signup,user_info):
         if num==1:
             try:
                 load_user = user.Admin.check_info(user_info)
-                load_user.sign_in(file_signin)
+                assert (load_user.sign_in(file_signin) is True)
                 return ['Admin',load_user]
             except:
                 print('Incorrect Input')
@@ -52,7 +52,7 @@ def check_passwd(file_signin,file_signup,user_info):
         elif num==2:
             try:
               load_user=user.Costumer.check_info(user_info)
-              load_user.sign_in(file_signin)
+              assert (load_user.sign_in(file_signin) is True)
               return ['Costumer',load_user]
             except:
               print('Incorrect Input')

@@ -1,0 +1,206 @@
+2021-05-16 10:46:42 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 10:48:10 - INFO - Incorrect passwd error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\user.py", line 185, in change_passwd
+    assert (key_decoded == new_key)
+AssertionError
+2021-05-16 10:55:42 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 10:55:42 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 10:57:04 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 10:57:04 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 10:57:04 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:18:05 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:18:05 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:18:05 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:18:05 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:18:05 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:28:54 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:28:54 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:28:54 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:28:54 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:28:54 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:28:54 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:30:51 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:30:51 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:30:51 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:30:51 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:30:51 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:30:51 - INFO - User info checked successfully
+NoneType: None
+2021-05-16 11:30:51 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:05:30 - ERROR - AGetinfo file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 50, in get_info
+    username=input('please enter new username: ')
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-21 13:05:30 - INFO - object created from get info function
+NoneType: None
+2021-05-21 13:06:17 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 88, in check_info
+    if a==b:
+  File "C:\Users\1234\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 105, in cmp_method
+    raise ValueError("Lengths must match to compare")
+ValueError: Lengths must match to compare
+2021-05-21 13:06:41 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:06:51 - INFO - Incorrect username error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 131, in sign_in
+    assert (user in ls_user)and(user==self.username)
+AssertionError
+2021-05-21 13:08:57 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 88, in check_info
+    if a==b:
+  File "C:\Users\1234\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 105, in cmp_method
+    raise ValueError("Lengths must match to compare")
+ValueError: Lengths must match to compare
+2021-05-21 13:09:25 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 88, in check_info
+    if a==b:
+  File "C:\Users\1234\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 105, in cmp_method
+    raise ValueError("Lengths must match to compare")
+ValueError: Lengths must match to compare
+2021-05-21 13:09:47 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:09:47 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:09:52 - INFO - Incorrect username error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 131, in sign_in
+    assert (user in ls_user)and(user==self.username)
+AssertionError
+2021-05-21 13:09:52 - INFO - Incorrect username error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 131, in sign_in
+    assert (user in ls_user)and(user==self.username)
+AssertionError
+2021-05-21 13:19:45 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 88, in check_info
+    if a==b:
+  File "C:\Users\1234\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 105, in cmp_method
+    raise ValueError("Lengths must match to compare")
+ValueError: Lengths must match to compare
+2021-05-21 13:19:58 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 87, in check_info
+    b=dt.index[dt.phone == int(phone)]
+ValueError: invalid literal for int() with base 10: 'ss'
+2021-05-21 13:20:06 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 87, in check_info
+    b=dt.index[dt.phone == int(phone)]
+ValueError: invalid literal for int() with base 10: 'dsd'
+2021-05-21 13:20:25 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:20:25 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:20:31 - INFO - Incorrect passwd error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 139, in sign_in
+    assert (key_decoded == new_key)
+AssertionError
+2021-05-21 13:20:31 - INFO - Incorrect passwd error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 139, in sign_in
+    assert (key_decoded == new_key)
+AssertionError
+2021-05-21 13:20:56 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:20:56 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:21:41 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 88, in check_info
+    if a==b:
+  File "C:\Users\1234\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 105, in cmp_method
+    raise ValueError("Lengths must match to compare")
+ValueError: Lengths must match to compare
+2021-05-21 13:21:41 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 88, in check_info
+    if a==b:
+  File "C:\Users\1234\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 105, in cmp_method
+    raise ValueError("Lengths must match to compare")
+ValueError: Lengths must match to compare
+2021-05-21 13:21:41 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 88, in check_info
+    if a==b:
+  File "C:\Users\1234\Anaconda3\lib\site-packages\pandas\core\indexes\base.py", line 105, in cmp_method
+    raise ValueError("Lengths must match to compare")
+ValueError: Lengths must match to compare
+2021-05-21 13:21:53 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 87, in check_info
+    b=dt.index[dt.phone == int(phone)]
+ValueError: invalid literal for int() with base 10: 'er'
+2021-05-21 13:21:53 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 87, in check_info
+    b=dt.index[dt.phone == int(phone)]
+ValueError: invalid literal for int() with base 10: 'er'
+2021-05-21 13:21:53 - ERROR - Check_info file error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 87, in check_info
+    b=dt.index[dt.phone == int(phone)]
+ValueError: invalid literal for int() with base 10: 'er'
+2021-05-21 13:22:06 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:22:06 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:22:06 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:22:12 - INFO - Incorrect passwd error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 139, in sign_in
+    assert (key_decoded == new_key)
+AssertionError
+2021-05-21 13:22:12 - INFO - Incorrect passwd error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 139, in sign_in
+    assert (key_decoded == new_key)
+AssertionError
+2021-05-21 13:22:12 - INFO - Incorrect passwd error
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 139, in sign_in
+    assert (key_decoded == new_key)
+AssertionError
+2021-05-21 13:22:37 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:22:37 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:22:37 - INFO - User info checked successfully
+NoneType: None
+2021-05-21 13:22:37 - INFO - User info checked successfully
+NoneType: None
