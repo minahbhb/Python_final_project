@@ -204,450 +204,240 @@ NoneType: None
 NoneType: None
 2021-05-16 11:31:21 - INFO - costumer exit
 NoneType: None
-2021-05-21 13:05:54 - ERROR - sign_up or getinfo error
+2021-05-24 19:21:19 - ERROR - assertion error by costumer, wrong input
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 77, in check_passwd
-    new_Admin.sign_up(file_signup,file_signin)
-  File "D:\Maktab\week_7\final_project\New folder\upload\user.py", line 226, in sign_up
-    passwd=input('please enter you password: ')
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
-    password=False,
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
-    raise KeyboardInterrupt("Interrupted by user") from None
-KeyboardInterrupt: Interrupted by user
-2021-05-21 13:06:17 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    load_user.sign_in(file_signin)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:07:38 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
-    password=False,
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
-    raise KeyboardInterrupt("Interrupted by user") from None
-KeyboardInterrupt: Interrupted by user
-2021-05-21 13:08:34 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
-    password=False,
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
-    raise KeyboardInterrupt("Interrupted by user") from None
-KeyboardInterrupt: Interrupted by user
-2021-05-21 13:08:57 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    load_user.sign_in(file_signin)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:09:11 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    load_user.sign_in(file_signin)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:09:25 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    load_user.sign_in(file_signin)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:09:25 - ERROR - wrong username or paswwd more than three times error
-NoneType: None
-2021-05-21 13:10:05 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 118, in <module>
-    event.Event.creat_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 74, in creat_event
-    name=input('event_name: ')
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
-    password=False,
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
-    raise KeyboardInterrupt("Interrupted by user") from None
-KeyboardInterrupt: Interrupted by user
-2021-05-21 13:10:05 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 118, in <module>
-    event.Event.creat_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 74, in creat_event
-    name=input('event_name: ')
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
-    password=False,
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
-    raise KeyboardInterrupt("Interrupted by user") from None
-KeyboardInterrupt: Interrupted by user
-2021-05-21 13:17:41 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:41 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:42 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:43 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:44 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:44 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:44 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:44 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:44 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:44 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:45 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:46 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:46 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-ValueError: invalid literal for int() with base 10: ''
-2021-05-21 13:17:51 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
-    password=False,
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
-    raise KeyboardInterrupt("Interrupted by user") from None
-KeyboardInterrupt: Interrupted by user
-2021-05-21 13:17:51 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 116, in <module>
-    num=int(input('what do you want to do: \n 1. Creat New Event\n 2. See previous defiend event\n 3. change password\n 4.edit discount \n 5.create new discount \n 6.Exit\n'))
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
-    password=False,
-  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
-    raise KeyboardInterrupt("Interrupted by user") from None
-KeyboardInterrupt: Interrupted by user
-2021-05-21 13:19:45 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:19:58 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:20:06 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:20:06 - ERROR - wrong username or paswwd more than three times error
-NoneType: None
-2021-05-21 13:20:31 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AssertionError
-2021-05-21 13:20:31 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 45, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AssertionError
-2021-05-21 13:21:08 - ERROR - assertion error, wrong input by admin
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 122, in <module>
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
     event.Event.display_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 302, in display_event
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
     my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
 AttributeError: 'Logger' object has no attribute 'inf'
-2021-05-21 13:21:08 - ERROR - assertion error, wrong input by admin
+2021-05-24 19:22:31 - INFO - but ticket by costumer
+NoneType: None
+2021-05-24 19:22:46 - ERROR - assertion error by costumer, wrong input
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 122, in <module>
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
     event.Event.display_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 302, in display_event
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
     my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
 AttributeError: 'Logger' object has no attribute 'inf'
-2021-05-21 13:21:19 - INFO - admin exit
+2021-05-24 19:24:57 - INFO - costumer exit
 NoneType: None
-2021-05-21 13:21:19 - INFO - admin exit
-NoneType: None
-2021-05-21 13:21:41 - ERROR - sign_in or checkinfo error
+2021-05-24 19:29:32 - ERROR - assertion error by costumer, wrong input
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:21:41 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:21:41 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:21:53 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:21:53 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:21:53 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AttributeError: 'NoneType' object has no attribute 'sign_in'
-2021-05-21 13:22:12 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AssertionError
-2021-05-21 13:22:12 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AssertionError
-2021-05-21 13:22:12 - ERROR - sign_in or checkinfo error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 55, in check_passwd
-    assert (load_user.sign_in(file_signin) is True)
-AssertionError
-2021-05-21 13:22:12 - ERROR - wrong username or paswwd more than three times error
-NoneType: None
-2021-05-21 13:22:12 - ERROR - wrong username or paswwd more than three times error
-NoneType: None
-2021-05-21 13:22:12 - ERROR - wrong username or paswwd more than three times error
-NoneType: None
-2021-05-21 13:22:47 - ERROR - assertion error by costumer, wrong input
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 149, in <module>
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
     event.Event.display_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 302, in display_event
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
     my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
 AttributeError: 'Logger' object has no attribute 'inf'
-2021-05-21 13:22:47 - ERROR - assertion error by costumer, wrong input
+2021-05-24 19:29:32 - ERROR - assertion error by costumer, wrong input
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 149, in <module>
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
     event.Event.display_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 302, in display_event
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
     my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
 AttributeError: 'Logger' object has no attribute 'inf'
-2021-05-21 13:22:47 - ERROR - assertion error by costumer, wrong input
+2021-05-24 19:30:30 - INFO - but ticket by costumer
+NoneType: None
+2021-05-24 19:30:30 - INFO - but ticket by costumer
+NoneType: None
+2021-05-24 19:30:40 - ERROR - assertion error by costumer, wrong input
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 149, in <module>
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:30:40 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:32:10 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 19:32:10 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 19:32:10 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 19:32:10 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 19:34:19 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:34:19 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:34:31 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:34:31 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:34:35 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:34:35 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 19:36:28 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
     event.Event.display_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 302, in display_event
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
     my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
 AttributeError: 'Logger' object has no attribute 'inf'
-2021-05-21 13:22:47 - ERROR - assertion error by costumer, wrong input
+2021-05-24 19:36:39 - INFO - costumer exit
+NoneType: None
+2021-05-24 20:11:52 - ERROR - assertion error by costumer, wrong input
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\main_menue.py", line 149, in <module>
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
     event.Event.display_event('file_event_csv')
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 302, in display_event
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
     my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
 AttributeError: 'Logger' object has no attribute 'inf'
-2021-05-21 13:23:22 - INFO - but ticket by costumer
+2021-05-24 20:15:51 - INFO - but ticket by costumer
 NoneType: None
-2021-05-21 13:23:22 - INFO - but ticket by costumer
+2021-05-24 20:18:03 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 20:18:03 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 20:18:03 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 20:18:04 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 20:18:04 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 20:18:04 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+ValueError: invalid literal for int() with base 10: ''
+2021-05-24 20:18:19 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 20:19:55 - INFO - but ticket by costumer
 NoneType: None
-2021-05-21 13:23:22 - INFO - but ticket by costumer
+2021-05-24 20:20:01 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
+    event.Event.display_event('file_event_csv')
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
+    my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
+AttributeError: 'Logger' object has no attribute 'inf'
+2021-05-24 20:31:42 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 20:31:54 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 20:32:32 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
+    event.Event.display_event('file_event_csv')
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 305, in display_event
+    my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
+AttributeError: 'Logger' object has no attribute 'inf'
+2021-05-24 20:32:47 - INFO - but ticket by costumer
 NoneType: None
-2021-05-21 13:23:22 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:07 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:07 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:07 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:07 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:22 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:22 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:22 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:22 - INFO - but ticket by costumer
-NoneType: None
-2021-05-21 13:24:32 - INFO - costumer exit
-NoneType: None
-2021-05-21 13:24:32 - INFO - costumer exit
-NoneType: None
-2021-05-21 13:24:32 - INFO - costumer exit
-NoneType: None
-2021-05-21 13:24:32 - INFO - costumer exit
-NoneType: None
+2021-05-24 20:32:54 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
+    event.Event.display_event('file_event_csv')
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 305, in display_event
+    my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
+AttributeError: 'Logger' object has no attribute 'inf'
+2021-05-24 20:38:22 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 147, in <module>
+    num=int(input('what do you want to do: \n 1. See current Event\n 2. Buy ticket\n 3. Exit\n '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user

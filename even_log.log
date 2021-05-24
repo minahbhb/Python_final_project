@@ -164,107 +164,91 @@ NoneType: None
 NoneType: None
 2021-05-16 11:31:21 - INFO - costumer exit
 NoneType: None
-2021-05-21 13:23:22 - ERROR - file event error
+2021-05-24 19:22:12 - ERROR - Assertion error. the left capacity is less than numbers of ticket
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 10 is out of bounds for axis 0 with size 5
-2021-05-21 13:23:22 - ERROR - file event error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 10 is out of bounds for axis 0 with size 5
-2021-05-21 13:23:22 - ERROR - file event error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 10 is out of bounds for axis 0 with size 5
-2021-05-21 13:23:22 - ERROR - file event error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 10 is out of bounds for axis 0 with size 5
-2021-05-21 13:23:22 - ERROR - Assertion error. the selected index is not exist
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 221, in buy_ticket
     assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:23:22 - ERROR - Assertion error. the selected index is not exist
+AssertionError
+2021-05-24 19:22:31 - INFO - tickets are sold successfully
+NoneType: None
+2021-05-24 19:29:59 - ERROR - Assertion error. the left capacity is less than numbers of ticket
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 221, in buy_ticket
     assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:23:22 - ERROR - Assertion error. the selected index is not exist
+AssertionError
+2021-05-24 19:29:59 - ERROR - Assertion error. the left capacity is less than numbers of ticket
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 221, in buy_ticket
     assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:23:22 - ERROR - Assertion error. the selected index is not exist
+AssertionError
+2021-05-24 19:30:30 - ERROR - Assertion error. the selected index is not exist
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 253, in buy_ticket
+    id_2=int(input('Can you use discount based on your account type? if yes press the correspondance index: '))
+ValueError: invalid literal for int() with base 10: 'student'
+2021-05-24 19:30:30 - ERROR - Assertion error. the selected index is not exist
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 253, in buy_ticket
+    id_2=int(input('Can you use discount based on your account type? if yes press the correspondance index: '))
+ValueError: invalid literal for int() with base 10: 'student'
+2021-05-24 19:30:30 - INFO - tickets are sold successfully
+NoneType: None
+2021-05-24 19:30:30 - INFO - tickets are sold successfully
+NoneType: None
+2021-05-24 19:36:28 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
+    event.Event.display_event('file_event_csv')
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
+    my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
+AttributeError: 'Logger' object has no attribute 'inf'
+2021-05-24 19:36:28 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
+    event.Event.display_event('file_event_csv')
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
+    my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
+AttributeError: 'Logger' object has no attribute 'inf'
+2021-05-24 19:36:28 - ERROR - assertion error by costumer, wrong input
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\main_menue.py", line 149, in <module>
+    event.Event.display_event('file_event_csv')
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 302, in display_event
+    my_logger_event.inf('evnt are displayed sucessfully', exc_info=True)
+AttributeError: 'Logger' object has no attribute 'inf'
+2021-05-24 19:36:39 - INFO - costumer exit
+NoneType: None
+2021-05-24 19:36:39 - INFO - costumer exit
+NoneType: None
+2021-05-24 19:36:39 - INFO - costumer exit
+NoneType: None
+2021-05-24 20:12:20 - ERROR - Assertion error. the left capacity is less than numbers of ticket
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 221, in buy_ticket
     assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:23:22 - INFO - tickets are sold successfully
+AssertionError
+2021-05-24 20:15:51 - ERROR - Assertion error. the selected index is not exist
+Traceback (most recent call last):
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 253, in buy_ticket
+    id_2=int(input('Can you use discount based on your account type? if yes press the correspondance index: '))
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 863, in raw_input
+    password=False,
+  File "C:\Users\1234\Anaconda3\lib\site-packages\ipykernel\kernelbase.py", line 904, in _input_request
+    raise KeyboardInterrupt("Interrupted by user") from None
+KeyboardInterrupt: Interrupted by user
+2021-05-24 20:15:51 - INFO - tickets are sold successfully
 NoneType: None
-2021-05-21 13:23:22 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:23:22 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:23:22 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:07 - ERROR - file event error
+2021-05-24 20:19:47 - ERROR - Assertion error. the left capacity is less than numbers of ticket
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 6 is out of bounds for axis 0 with size 5
-2021-05-21 13:24:07 - ERROR - file event error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 6 is out of bounds for axis 0 with size 5
-2021-05-21 13:24:07 - ERROR - file event error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 6 is out of bounds for axis 0 with size 5
-2021-05-21 13:24:07 - ERROR - file event error
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 214, in buy_ticket
-    a=dt[id]
-IndexError: index 6 is out of bounds for axis 0 with size 5
-2021-05-21 13:24:07 - ERROR - Assertion error. the selected index is not exist
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 221, in buy_ticket
     assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:24:07 - ERROR - Assertion error. the selected index is not exist
+AssertionError
+2021-05-24 20:19:55 - INFO - tickets are sold successfully
+NoneType: None
+2021-05-24 20:32:47 - ERROR - Assertion error. the left capacity is less than numbers of ticket
 Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
+  File "D:\Maktab\week_7\final_project\New folder\event.py", line 222, in buy_ticket
     assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:24:07 - ERROR - Assertion error. the selected index is not exist
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
-    assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:24:07 - ERROR - Assertion error. the selected index is not exist
-Traceback (most recent call last):
-  File "D:\Maktab\week_7\final_project\New folder\upload\event.py", line 221, in buy_ticket
-    assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-UnboundLocalError: local variable 'event' referenced before assignment
-2021-05-21 13:24:07 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:07 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:07 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:07 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:22 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:22 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:22 - INFO - tickets are sold successfully
-NoneType: None
-2021-05-21 13:24:22 - INFO - tickets are sold successfully
+AssertionError
+2021-05-24 20:32:47 - INFO - tickets are sold successfully
 NoneType: None

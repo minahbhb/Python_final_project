@@ -120,7 +120,6 @@ class User:
         except:
             print('file error') 
             my_logger.error('File_signin, file error', exc_info=True)
-            return False
             
         else:
             ls_user=[]
@@ -138,16 +137,12 @@ class User:
                 try:
                     assert (key_decoded == new_key)
                     print(f'welcome {self.name} {self.family}')
-                    return True
                 except:
                     print ("Sorry, the password is not correct")
                     my_logger.info('Incorrect passwd error', exc_info=True)
-                    return False
-                
             except AssertionError:
                 print ("Sorry, the username is not correct")
                 my_logger.info('Incorrect username error', exc_info=True)
-                return False
                     
 
     

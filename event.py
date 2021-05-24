@@ -216,56 +216,59 @@ class Event:
                     except:
                         print('file error')
                         my_logger_event.error('file event error', exc_info=True)
-                    
-                    try:
-                        assert (ticket<int(event.left_capacity)) # you can add here checking time and date
-                    except AssertionError:
-                        print(f'{event.left_capacity} tickets are left you can not buy more ticket than left capacity')
-                        my_logger_event.error('Assertion error. the left capacity is less than numbers of ticket', exc_info=True)
+                    else:
+
+                        try:
+                            assert (ticket<int(event.left_capacity)) # you can add here checking time and date
+                            try:
+                                df.at[id,6]=df.loc[id][6]-ticket
+                                df.to_csv(file_event_csv,index=False,header=False)
+                        
+                            except:
+                               print('file error')
+                               my_logger_event.error('file event error', exc_info=True)
+                            else:
+                                try:
+                                    with open(file_discount_csv, 'r') as data_file:
+                                        csv_data = csv.reader(data_file)
+                                        list_discount=[]
+                                        list_index=[]
+                                        for index,line in enumerate(csv_data):
+                                            print(f'id={index}',line)
+                                            list_discount.append(line)
+                                            list_index.append(index)
+                                except :
+                                    print('file error')
+                                    my_logger_event.error('file disount error', exc_info=True)
+                                
+                                else:
+                                    try:
+                                        id_2=int(input('Can you use discount based on your account type? if yes press the correspondance index: '))
+                                        assert (id_2 in list_index)
+                                        try:
+                                            #kind_costumer=user.Costumer.buyer.type_discount()
+                                            assert(list_discount[id_2][0]==costumer_kind)
+                                            price=int(event.price)-((int(event.price)*float(list_discount[id_2][1]))/100)
+                                            total_price=price*ticket
+                                            print('Your discount code is accepted\n')
+                                            print(f'ecah ticket cost {event.price} and you need to pay {total_price} in total for {ticket} tickets')
+                                        except:
+                                            price=int(event.price)*ticket
+                                            print('your discount type is not valid')
+                                            print(f'you need to pay {price}')
+                                    except :
+                                        print('invalid input')
+                                        my_logger_event.error('Assertion error. the selected index is not exist', exc_info=True)
+                            
+                        except AssertionError:
+                            print(f'{event.left_capacity} tickets are left you can not buy more ticket than left capacity')
+                            my_logger_event.error('Assertion error. the left capacity is less than numbers of ticket', exc_info=True)
                 except:
                     print('invalid input')
                     my_logger_event.error('Assertion error. the selected index is not exist', exc_info=True)
                     
-                else:
-                    try:
-                        df.at[id,6]=df.loc[id][6]-ticket
-                        df.to_csv(file_event_csv,index=False,header=False)
-                        
-                    except:
-                        print('file error')
-                        my_logger_event.error('file event error', exc_info=True)
-                    else:
-                        try:
-                            with open(file_discount_csv, 'r') as data_file:
-                                csv_data = csv.reader(data_file)
-                                list_discount=[]
-                                list_index=[]
-                                for index,line in enumerate(csv_data):
-                                    print(f'id={index}',line)
-                                    list_discount.append(line)
-                                    list_index.append(index)
-                        except :
-                            print('file error')
-                            my_logger_event.error('file disount error', exc_info=True)
-                                
-                        else:
-                            try:
-                                id_2=int(input('Can you use discount based on your account type? if yes press the correspondance index: '))
-                                assert (id_2 in list_index)
-                                try:
-                                    #kind_costumer=user.Costumer.buyer.type_discount()
-                                    assert(list_discount[id_2][0]==costumer_kind)
-                                    price=int(event.price)-((int(event.price)*float(list_discount[id_2][1]))/100)
-                                    total_price=price*ticket
-                                    print('Your discount code is accepted\n')
-                                    print(f'ecah ticket cost {event.price} and you need to pay {total_price} in total for {ticket} tickets')
-                                except:
-                                    price=int(event.price)*ticket
-                                    print('your discount type is not valid')
-                                    print(f'you need to pay {price}')
-                            except :
-                                print('invalid input')
-                                my_logger_event.error('Assertion error. the selected index is not exist', exc_info=True)
+                #else:
+                    
                 
         except :
             print('file error')
